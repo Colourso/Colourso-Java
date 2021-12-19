@@ -11,6 +11,7 @@
     <modules>
         <module>java05_collect</module>
         <module>java09_design</module>
+        <module>Java10_stream</module>
     </modules>
 
     <properties>
@@ -35,6 +36,11 @@
             <artifactId>logback-classic</artifactId>
             <version>1.1.3</version>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
         </dependency>
     </dependencies>
 

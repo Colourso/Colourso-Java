@@ -30,9 +30,9 @@ public class Main {
         工厂方法可以隐藏创建产品的细节，且不一定每次都会真正创建产品，
         完全可以返回缓存的产品，从而提升速度并减少内存消耗。
          public static Integer valueOf(int i) {
-         if (i >= IntegerCache.low && i <= IntegerCache.high)
-         return IntegerCache.cache[i + (-IntegerCache.low)];
-         return new Integer(i);
+             if (i >= IntegerCache.low && i <= IntegerCache.high)
+             return IntegerCache.cache[i + (-IntegerCache.low)];
+             return new Integer(i);
          }
          */
 
