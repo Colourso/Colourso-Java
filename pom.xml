@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>java05_collect</module>
-        <module>java09_design</module>
         <module>Java10_stream</module>
+        <module>java09_designs</module>
+        <module>java05_collects</module>
     </modules>
 
     <properties>
