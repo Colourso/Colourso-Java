@@ -12,6 +12,11 @@
         <module>Java10_stream</module>
         <module>java09_designs</module>
         <module>java05_collects</module>
+        <module>java08_thread</module>
+        <module>java07_exception</module>
+        <module>java06_annotition</module>
+        <module>java11_network_io</module>
+        <module>java12_spring</module>
     </modules>
 
     <properties>
