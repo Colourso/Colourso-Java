@@ -19,9 +19,9 @@ public class Main {
     public static void main(String[] args) {
         try {
 
-            FTPConfig config = new FTPConfig.Builder().userName("lighthouse").passwd("UYZGXRl.0418")
-                    .url("101.42.134.52").port("22").proxyPort("0").connectType("SFTP").filePath("/home/lighthouse").fileType("csv")
-                    .datePattern("yyyyMMdd").fileNamePattern("ZCKTCK_deitail_%s.csv").build();
+            FTPConfig config = new FTPConfig.Builder().userName("lighthouse").passwd("xxxxx")
+                    .url("xxx").port("22").proxyPort("0").connectType("SFTP").filePath("/home/lighthouse").fileType("csv")
+                    .datePattern("yyyyMMdd").fileNamePattern("deitail_%s.csv").build();
 
             String date = DateFormatUtils.format(new Date(),"yyyyMMdd");
 
