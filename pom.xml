@@ -17,6 +17,7 @@
         <module>java06_annotition</module>
         <module>java11_network_io</module>
         <module>java12_spring</module>
+        <module>java13_db</module>
     </modules>
 
     <properties>
